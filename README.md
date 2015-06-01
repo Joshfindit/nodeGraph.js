@@ -26,7 +26,7 @@ Alternately, by setting tagClassInParentElement to true, nodeGraph.js looks for 
 
 
 ### D3
-For understanding, nodeGraph.js is creating json from the current page, and D3 is using that json to create a force node graph.
+For understanding, nodeGraph.js is creating json from the current page, and calling D3 using that json to create a force node graph.
 
 So for tag with value “post”, output will be:
 ```
