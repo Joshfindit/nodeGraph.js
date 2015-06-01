@@ -25,6 +25,9 @@ Alternately, by setting tagClassInParentElement to true, nodeGraph.js looks for 
     "graphHeight": 500, //Height of the nodeGraph area
 
 
+### Example
+[nodeGraph.js project page](http://joshfindit.github.io/nodeGraph.js/)
+
 ### D3
 For understanding, nodeGraph.js is creating json from the current page, and calling D3 using that json to create a force node graph.
 
