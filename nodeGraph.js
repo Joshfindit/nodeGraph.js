@@ -3,7 +3,7 @@ var nodeGraph = {
     settings: {
         "graphDivID": "nodeConnectionGraph", //the class name that will be targeted for adding the node graph. Example: <div class="nodeConnectionGraph"></div>
         "tagClass": "tagForNodeGraph", //The class where nodeGraph will search for tags to start building the nodes
-        "tagClassInParentElement": true, //Are the tags children of tagClass?
+        "tagClassInParentElement": false, //Are the tags children of tagClass?
         "separatorForNodeConnections": "_", //this allows for tag names such as "_connection_node" and "@connection@node"
         "separatorForSpacesInTags": ".", //If your html does not allow for spaces in tags, substitute for this separator
         "hrefRootForNodes": "", //When building the links on the nodes, we build like: $hrefRootForNodes + nodename. Note: Links can be explicitly defined in the tag
